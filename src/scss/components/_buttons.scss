@@ -1,0 +1,19 @@
+.btn {
+    display: inline-block;
+    min-width: 136px;
+    text-align: center;
+    padding: 20px 35px;
+    border: 2px solid;
+    border-color: transparent;
+    font-weight: 600;
+    color: #fff;
+    background: var(--primary-color);
+    transition: ease-in-out 0.3s;
+    transition-property: color, background, border-color;
+
+    &:hover {
+        color: var(--primary-color);
+        background: #fff;
+        border-color: currentColor;
+    }
+}

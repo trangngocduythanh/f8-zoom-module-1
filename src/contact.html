@@ -4,12 +4,84 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Home</title>
+        <%- include("./partials/head.ejs") %>
     </head>
     <body>
         <div class="wrapper">
             <%- include("./partials/header.ejs") %>
-            <h1>Home</h1>
-            <%- include("./partials/footer.ejs") %>
+
+            <main>
+                <!-- Contact us -->
+                <section class="contact-us pt-lg-5 pb-lg-5">
+                    <div class="container">
+                        <div class="row gy-md-4">
+                            <div class="col-5 col-md-12">
+                                <div class="info">
+                                    <h1 class="title">Contact Us</h1>
+                                    <p class="desc">
+                                        Our reports will help you better
+                                        understand your audience and target the
+                                        right message to the right person. Send
+                                        your email marketing campaign in a fast
+                                        and simple way.
+                                    </p>
+                                    <ul class="mt-md-5">
+                                        <li>
+                                            <i
+                                                class="icon fa-solid fa-location-dot"
+                                            ></i>
+                                            <a href="#!">
+                                                34 Street Name, City Name Here,
+                                                United States.
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <i
+                                                class="icon fa-solid fa-phone"
+                                            ></i>
+                                            <a href="#!">+1 (222) 345 6789</a>
+                                        </li>
+                                        <li>
+                                            <i
+                                                class="icon fa-solid fa-envelope"
+                                            ></i>
+                                            <a href="#!">info@mywebsite.com</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-6 offset-1 offset-md-0 col-md-12">
+                                <form action="" class="form">
+                                    <label for="name">Name</label>
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        class="input-name"
+                                    />
+
+                                    <label for="email">Email</label>
+                                    <input
+                                        type="text"
+                                        id="email"
+                                        class="input-email"
+                                    />
+
+                                    <label for="message">Message</label>
+                                    <textarea
+                                        name=""
+                                        id="message"
+                                        class="message"
+                                    ></textarea>
+                                    <button class="send-message-btn">
+                                        Send Message
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <%-include("./partials/footer.ejs") %>
         </div>
         <script type="module" src="./main.js"></script>
     </body>

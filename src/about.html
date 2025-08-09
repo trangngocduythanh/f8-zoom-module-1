@@ -4,11 +4,90 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>About</title>
+        <%- include("./partials/head.ejs") %>
     </head>
     <body>
         <div class="wrapper">
             <%- include("./partials/header.ejs") %>
-            <h1>About</h1>
+            <main>
+                <!-- Interview -->
+                <section class="interview">
+                    <div class="container">
+                        <h2 class="title">
+                            You can count on the undivided attention of a team
+                            that prizes relationships over profits.
+                        </h2>
+                        <div class="row gy-md-3 row-cols-2 row-cols-md-1">
+                            <div class="col">
+                                <img src="./img/img-interview-1.png" alt="" />
+                            </div>
+                            <div class="col">
+                                <img src="./img/img-interview-1.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- History -->
+                <section class="history mt-lg-5">
+                    <div class="container">
+                        <div class="row row-cols-2 row-cols-lg-1">
+                            <div class="col">
+                                <div class="content pt-lg-5 pb-lg-5">
+                                    <h3 class="sub-title">History</h3>
+                                    <h2 class="title w-lg-100">
+                                        Through And Complete Attention to Law
+                                    </h2>
+                                    <p class="desc w-lg-100">
+                                        While Mr. Parmele, his paralegals, and
+                                        clerks are busy assisting you with your
+                                        forms, helping you assemble your
+                                        documentation, and keeping you updated
+                                        regularly, Mr. Parmele is busy behind
+                                        the scenes, focusing on winning your
+                                        case. <br />
+                                        Your initial meeting with Parmele Law
+                                        Firm sets in motion the difficult – and
+                                        tedious – process of getting your
+                                        benefits for you.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="img-wrap">
+                                    <figure>
+                                        <img
+                                            src="./img/img-history.png"
+                                            alt=""
+                                            class="history-img"
+                                        />
+                                    </figure>
+                                    <img
+                                        src="./img/img-history-decor.svg"
+                                        alt=""
+                                        class="history-decor-img"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Our experience -->
+                <section class="our-experience mt-lg-5 mb-lg-5 pt-lg-5 pb-lg-5">
+                    <div class="container">
+                        <h3 class="sub-title">OUR EXPERIENCE</h3>
+                        <h2 class="title">
+                            20 Years of Experience In Various Cases
+                        </h2>
+                        <p class="desc">
+                            Asbestos.com is proud to donate to organizations
+                            that raise awareness and support ongoing research on
+                            mesothelioma, cancer
+                        </p>
+                    </div>
+                </section>
+            </main>
             <%- include("./partials/footer.ejs") %>
         </div>
         <script type="module" src="./main.js"></script>

@@ -1,0 +1,98 @@
+.interview {
+    padding-top: 70px;
+
+    .title {
+        margin: 0 auto 70px;
+        width: 770px;
+        max-width: 100%;
+        color: var(--dark);
+        text-align: center;
+        font-size: 4.2rem;
+        font-weight: 700;
+        line-height: 1.24; /* 123.81% */
+    }
+
+    img {
+        cursor: pointer;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+// History
+.history {
+    margin-top: 150px;
+
+    .content {
+        padding: 86px 0;
+
+        .sub-title {
+            color: var(--grey);
+            font-weight: 400;
+        }
+
+        .title {
+            margin-top: 10px;
+            width: 469px;
+            color: var(--dark);
+            font-size: 4.2rem;
+            font-weight: 700;
+        }
+
+        .desc {
+            width: 470px;
+            margin-top: 18px;
+            color: var(--grey);
+            font-weight: 400;
+            line-height: 1.67;
+        }
+    }
+
+    .img-wrap {
+        position: relative;
+
+        .history-img {
+            display: block;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .history-decor-img {
+            position: absolute;
+            z-index: -1;
+            bottom: 0;
+            left: -30px;
+        }
+    }
+}
+
+// Our experience
+.our-experience {
+    margin: 150px 0;
+    padding: 100px 0;
+    background: var(--yellow-light);
+
+    .sub-title {
+        color: var(--dark);
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .title {
+        margin-top: 10px;
+        color: var(--dark);
+        text-align: center;
+        font-size: 4.2rem;
+        font-weight: 700;
+    }
+
+    .desc {
+        margin: 20px auto 0;
+        width: 770px;
+        max-width: 100%;
+        color: var(--grey);
+        text-align: center;
+        font-weight: 400;
+        line-height: 1.67;
+    }
+}
